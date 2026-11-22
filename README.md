@@ -1,4 +1,4 @@
-# qorpiq-com
+# QorpIQ
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-qorpiq-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://qorpiq.com/
+QorpIQ provides a comprehensive platform for Indian company and director data, offering searchable MCA filings, KYB verification, GST verification, and watchlist monitoring. Users can access APIs to retrieve company details, director information, incorporation dates, and financial documents, supporting compliance, risk assessment, and business intelligence workflows across India.
+
+**Areas:** Company
+
+## QorpIQ on APIs.io
+
+Everything profiled for QorpIQ is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/qorpiq-com/](https://apis.io/providers/qorpiq-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [QorpIQ Account API](https://apis.io/apis/qorpiq-com/qorpiq-com-account-api/) — Check your balance. Free to call.
+- [QorpIQ Bulk API](https://apis.io/apis/qorpiq-com/qorpiq-com-bulk-api/) — Run one check over up to 25 items in a single call.
+- [QorpIQ Directors API](https://apis.io/apis/qorpiq-com/qorpiq-com-directors-api/) — Check a director by DIN or PAN: status and disqualification, their MCA record, and every company they direct.
+- [QorpIQ Due Diligence API](https://apis.io/apis/qorpiq-com/qorpiq-com-due-diligence-api/) — Answer the questions a lender or onboarding team asks about a company: charges, filing health, turnover, MCA penalties and who can sign.
+- [QorpIQ Filings API](https://apis.io/apis/qorpiq-com/qorpiq-com-filings-api/) — Structured data from the company's filed forms: financial statements, annual return, allotments, director changes and the filings list.
+- [QorpIQ Lookup API](https://apis.io/apis/qorpiq-com/qorpiq-com-lookup-api/) — Find a company by name, read its MCA record and directors, and get its PAN.
+- [QorpIQ More API](https://apis.io/apis/qorpiq-com/qorpiq-com-more-api/) — Endpoints kept for existing integrations. Not shown in the developer docs.
+- [QorpIQ Tax IDs API](https://apis.io/apis/qorpiq-com/qorpiq-com-tax-ids-api/) — Verify a PAN, get the business behind a company PAN, check GST registration and returns, and look up the LEI.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [QorpIQ Agentic Access](https://apis.io/agentic-access/qorpiq-com/qorpiq-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AllotmentsResponse](https://apis.io/schemas/qorpiq-com/qorpiq-com-allotments-response/)
+- [AnnualReturnResponse](https://apis.io/schemas/qorpiq-com/qorpiq-com-annual-return-response/)
+- [ChargeHistoryResponse](https://apis.io/schemas/qorpiq-com/qorpiq-com-charge-history-response/)
+- [CompanyReportResponse](https://apis.io/schemas/qorpiq-com/qorpiq-com-company-report-response/)
+- [DisclosuresResponse](https://apis.io/schemas/qorpiq-com/qorpiq-com-disclosures-response/)
+- [FreshnessResponse](https://apis.io/schemas/qorpiq-com/qorpiq-com-freshness-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Qorpiq Com Context](https://apis.io/jsonld/qorpiq-com/qorpiq-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [QorpIQ API Rules](https://apis.io/rules/qorpiq-com/qorpiq-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [QorpIQ Authentication](https://apis.io/security/qorpiq-com/qorpiq-com-authentication/)
+- [QorpIQ Domain Security](https://apis.io/security/qorpiq-com/qorpiq-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://qorpiq.com/)
+- [Documentation](https://developers.qorpiq.com/docs/api-reference)
+- [Getting started](https://developers.qorpiq.com/docs/getting-started)
+- [API reference](https://api.qorpiq.com/openapi.json)
+- [Pricing](https://qorpiq.com/pricing)
+- [Support](https://qorpiq.com/contact)
+- [Terms of service](https://qorpiq.com/terms)
+- [Privacy policy](https://qorpiq.com/privacy-policy)
+- [Status](https://status.qorpiq.com)
+
+## API Evangelist rating
+
+**Kin Score 48.8** — developing · rubric 0.28.0 · scored 2026-11-22
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 61.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 14.3 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 25.5 |
+
+**Agent readiness 35.9** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/qorpiq-com/](https://apis.io/providers/qorpiq-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for QorpIQ: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/qorpiq-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
